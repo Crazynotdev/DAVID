@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mariage - David & Précieuse</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="page page--mariage">
+    <main class="page__center">
+      <section class="panel panel--glow" id="proposalPanel">
+        <p class="eyebrow">💍 La demande</p>
+        <h1 data-typewrite="36">Précieuse, veux-tu m'épouser ?</h1>
+        <div class="proposal__stage" id="proposalStage">
+          <button class="btn btn--primary btn--yes" id="yesBtn"><span>Oui</span></button>
+          <button class="btn btn--ghost btn--no" id="noBtn"><span>Non</span></button>
+        </div>
+        <p class="panel__text" id="proposalMessage">Le cœur de David attend la réponse.</p>
+      </section>
+    </main>
+
+    <div class="heartburst" id="heartburst" aria-hidden="true">
+      <div class="heartburst__sparkles" id="heartburstSparkles"></div>
+      <div class="heartburst__core">
+        <svg viewBox="0 0 240 240" fill="currentColor">
+          <path d="M120 206c-41-26-72-49-72-89 0-23 18-42 41-42 13 0 26 6 32 17 6-11 19-17 32-17 23 0 41 19 41 42 0 40-31 63-73 89Z" />
+        </svg>
+      </div>
+      <div class="heartburst__message">Oui, pour toujours</div>
+    </div>
+
+    <div class="finale" id="finale" aria-hidden="true">
+      <div class="finale__confetti" id="finaleConfetti"></div>
+      <h2 class="finale__title">Elle a dit oui. ✨</h2>
+      <div class="finale__gallery" id="finaleGallery">
+        <img src="photo/1.svg" alt="Souvenir de David et Précieuse" />
+        <img src="photo/2.svg" alt="Un autre souvenir de David et Précieuse" />
+      </div>
+      <p class="finale__text">Et voilà, l'aventure s'écrit enfin dans la lumière — pour toujours, à deux.</p>
+      <a class="btn btn--ghost finale__replay" id="replayBtn"><span>Revivre l'instant</span></a>
+    </div>
+
+    <script src="effects.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

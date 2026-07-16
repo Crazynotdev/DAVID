@@ -1,0 +1,24 @@
+{
+  "name": "david-et-precieuse",
+  "version": "2.0.0",
+  "description": "Site interactif de demande en mariage — David & Précieuse. Ciel étoilé animé, particules physiques, sons, effet de scramble sur les titres.",
+  "private": true,
+  "author": "Craydev Studios",
+  "license": "UNLICENSED",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve . -l 3000",
+    "dev": "npx serve . -l 3000",
+    "preview": "npx http-server . -p 3000 -c-1"
+  },
+  "keywords": [
+    "proposal",
+    "mariage",
+    "interactive",
+    "vanilla-js",
+    "craydev-studios"
+  ],
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
