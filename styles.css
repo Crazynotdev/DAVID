@@ -117,6 +117,10 @@ body {
   background: rgba(21, 10, 51, 0.55);
   backdrop-filter: blur(14px);
   border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 10px 30px var(--shadow);
+}
+
+.wow-nav__inner::-webkit-scrollbar { display: none; }
 
 .wow-nav a {
   padding: 0.5rem 1rem;
@@ -129,8 +133,8 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
   transition: all 0.3s ease;
-  
-  .wow-nav__inner::-webkit-scrollbar { display: none; }
+  position: relative;
+}
 
 .wow-nav a:hover { color: var(--text); background: rgba(255,255,255,0.06); }
 
